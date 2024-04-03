@@ -1,0 +1,451 @@
+@media screen and (max-width: 992px) and (min-width: 577px){
+    #section1{
+        height: 100% !important;
+        padding-bottom: 50px !important;
+    }
+    #fotoPart img{
+        width: 300px !important;
+        height: 250px !important;
+    }
+    #foto1{
+        left: 50px !important;
+        width: 45% !important;
+    }
+    #foto2{
+        width: 75% !important;
+        right: 50px !important;
+    }
+    #section2{
+        height: 100% !important;
+        margin: 0 !important;
+    }
+    #example{
+        width: 80% !important;
+    }
+    #el1{
+        width: 20px !important;
+        height: 20px !important;
+        border: 3px solid orange !important;
+        bottom: 0px !important;
+        left: 20px !important
+    }
+    #el2{
+        width: 20px !important;
+        height: 20px !important;
+        border: 3px solid orange !important;
+        top: 50px !important;
+        left: 150px !important;
+    }
+    #detail{
+        width: 130px !important;
+        height: 130px !important;
+        left: 0px !important;
+        top: 50px !important;
+    }
+    #about{
+        border-bottom: 1px solid rgb(103, 100, 100) !important;
+        position: relative;
+        top: 85px !important;
+        left: 40px !important;
+        font-size: 18px !important;
+    }
+    #about2{
+        border-bottom: 1px solid rgb(103, 100, 100) !important;
+        position: relative;
+        left: 70px !important;
+        bottom: 120px !important;
+        font-size: 18px !important;
+    }
+    #section4Part2 #row > div{
+        padding: 7px !important;
+        margin: 10px 0 !important;
+        width: 260px !important;
+    }
+    #section4Part2 h3{
+        padding-left: 25px !important;
+    }
+
+    #section5{
+        height: 100% !important;
+        padding: 50px 0 !important;
+    }
+    #section5img{
+        width: 80% !important;
+        top: 63px !important;
+        left: 0 !important;
+        z-index: 99 !important;
+    }
+    #section5img2{
+        width: 50% !important;
+        left: 50% !important;
+        bottom: 250px!important;
+    }  
+}
+@media screen and (max-width: 576px) and (min-width: 100px){
+    #caption{
+        font-size: 27px !important;
+        letter-spacing: 3px !important;
+        padding: 3px 0 !important;
+    }
+    #subCaption{
+        font-size: 26px !important;
+    }
+    #text, #text2{
+        font-size: 22px !important;
+
+    }
+    #section1{
+        height: 100% !important;
+        padding-bottom: 50px !important;
+    }
+    #foto1{
+        display: none !important;
+    }
+    #foto2{
+        width: 100% !important;
+        height: 315px !important;
+        right: 0 !important;
+    }
+    #details{
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    #details img{
+        width: 130px !important;
+        height: 130px !important;
+        padding: 20px 0 !important;
+    }
+    #firstCol, #secondCol{
+        text-align: center !important;
+        padding: 20px 0 !important;
+    }
+    
+    #section2{
+        height: 100% !important;
+        margin: 20px 0 !important;
+    }
+    #example{
+        width: 100% !important;
+    }
+    #el1{
+        width: 15px !important;
+        height: 15px !important;
+        border: 3px solid orange !important;
+        bottom: 0px !important;
+        left: 20px !important;
+        font-size: 10px !important;
+    }
+    #el2{
+        width: 15px !important;
+        height: 15px !important;
+        border: 3px solid orange !important;
+        top: 50px !important;
+        left: 150px !important;
+        font-size: 10px !important;
+    }
+    #detail{
+        width: 130px !important;
+        height: 130px !important;
+        left: 0px !important;
+        top: 50px !important;
+    
+    }
+    #about{
+        border-bottom: 1px solid rgb(103, 100, 100) !important;
+        position: relative;
+        top: 85px !important;
+        left: 20px !important;
+        font-size: 15px !important;
+    }
+    #about2{
+        border-bottom: 1px solid rgb(103, 100, 100) !important;
+        position: relative;
+        left: 70px !important;
+        bottom: 90px !important;
+        font-size: 15px !important;
+    }
+    
+    #section3 #first{
+        flex-direction: column !important;
+        justify-content: center !important;
+        width: 100% !important;
+    }
+    #section3 #second{
+        flex-direction: column-reverse !important;
+        justify-content: center !important;
+        width: 100% !important;
+    }
+    #moreInfo, #img{
+        width: 95% !important;
+        text-align: justify;
+    }
+    #section4{
+        display: none !important;
+    }
+    #section5{
+        height: 100% !important;
+        padding: 50px 0 !important;
+        background: linear-gradient(to bottom, rgb(226, 232, 255), rgb(0, 0, 26)) !important;
+    }
+    #section5img{
+        width: 80% !important;
+        top: 63px !important;
+        left: 0 !important;
+        z-index: 99 !important;
+    }
+    #section5img2{
+        width: 50% !important;
+        left: 50% !important;
+        bottom: 250px!important;
+    }   
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#section1{
+    background-image: url(./img/1626332797_22-kartinkin-com-p-tyomno-sinii-fon-so-zvyozdami-krasivo-23.jpg);
+    height: 100vh;
+    background-size: 100% 100%;    
+}
+#caption{
+    color: white;
+    text-transform: uppercase;
+    font-size: 46px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 4px 0;
+}
+#text{
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 27px;
+    font-weight: 900;
+}
+#text2{
+    color: black;
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 900;
+}
+
+#subCaption{
+    color: rgb(255, 153, 0);
+    font-size: 41px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-align: start;
+    padding: 9px 0;
+}
+#logoPart{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fotoPart{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+}
+#fotoPart img{
+    width: 500px;
+    height: 350px;
+}
+#foto1{
+    position: relative;
+    z-index: 2;
+    left: 150px;
+    top: -20px;
+}
+#foto2{
+    position: relative;
+    z-index: 1;
+    right: 100px;
+}
+#descriptionPart{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+
+}
+#descriptionPart > div{
+    width: 100%;
+}
+#part1, #part2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+#icon{
+    padding: 10px 20px 0 0;
+    filter:invert(100);
+}
+
+#section2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;   
+}
+
+#example{
+    width: 70%;   
+}
+#elements{
+    position: absolute;
+}
+#el1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-weight: bolder;
+    border: 5px solid orange;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 100px;
+    z-index: 99;
+}
+#el2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-weight: bolder;
+    border: 5px solid orange;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 300px;
+    left: 150px;
+    z-index: 99;
+}
+#detail{
+    width: 200px;
+    height: 200px;
+    border: 5px solid orange;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left:300px;
+    top: 200px;
+    z-index: 99;
+}
+#about{
+    padding: 10px;
+    border-bottom: 2px solid rgb(103, 100, 100);
+    position: relative;
+    top: 50px;
+    left: 300px;
+    color: rgb(103, 100, 100);
+    font-size: 25px;
+}
+#about2{
+    padding: 10px;
+    border-bottom: 2px solid rgb(103, 100, 100);
+    position: relative;
+    left: 200px;
+    bottom: 170px;
+    color: rgb(103, 100, 100);
+    font-size: 25px;
+}
+
+#section3{
+    width: 100%;
+    height: 100%;
+    margin: 70px 0;
+}
+#section3 #first, #section3 #second{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#img{
+    width: 30%;
+    background-color: rgba(192, 192, 192, 0.621);
+    border-radius: 10px;
+    padding: 15px 0;
+}
+#moreInfo{
+    width: 65%;
+    padding: 15px 0;
+}
+
+#comparison{
+    background-color: rgb(5, 5, 23);
+    background-image: linear-gradient(to bottom, rgb(35, 57, 168), rgba(255, 255, 255, 0));
+    padding: 30px 0;
+}
+#section4Part1{
+    display: flex;
+}
+#section4Part1 img{
+    width: 45%;
+}
+#section4Part1 > div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#section4Part2 h3{
+    color: rgb(255, 153, 0);
+    font-size: 25px;
+    padding-left: 150px;
+}
+#section4Part2 #row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#section4Part2 #row > div{
+    border: 2px solid rgb(255, 111, 0);
+    background-color:  rgb(255, 111, 0);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 12px 0;
+    width: 500px;
+    text-align: center;
+}
+#section5{
+    background-color: rgb(5, 5, 23);
+    background-size: 100% 90%; 
+    backdrop-filter:calc(50);
+}
+#section5img{
+   height: 260px;
+   position: relative;
+   bottom: 40px;
+}
+#section5img2{
+    height: 150px;
+    position: relative;
+    right: 120px;
+}
+
+
+
+
+
